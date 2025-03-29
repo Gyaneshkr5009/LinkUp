@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply bg-dark-1 text-white min-h-screen font-poppins antialiased; /* Changed font-inter to font-poppins */
+    @apply bg-[#0B0F19] text-[#E5E7EB] min-h-screen font-poppins antialiased; /* Changed font-inter to font-poppins */
   }
 }
 
@@ -131,7 +131,7 @@
   }
 
   .explore-search {
-    @apply h-12 bg-dark-4 border-none placeholder:text-light-4 focus-visible:ring-0 focus-visible:ring-offset-0 ring-offset-0 !important;
+    @apply h-12 bg-[#222A3A] border-none placeholder:text-[#A1A7B3] focus-visible:ring-0 focus-visible:ring-offset-0 ring-offset-0 !important;
   }
 
   /* Home */
@@ -153,19 +153,19 @@
   }
 
   .post_details-card {
-    @apply bg-dark-2 w-full max-w-5xl rounded-[30px] flex-col flex xl:flex-row border border-dark-4 xl:rounded-l-[24px];
+    @apply bg-[#141922] w-full max-w-5xl rounded-[30px] flex-col flex xl:flex-row border border-[#29323D] xl:rounded-l-[24px];
   }
 
   .post_details-img {
-    @apply h-80 lg:h-[480px] xl:w-[48%] rounded-t-[30px] xl:rounded-l-[24px] xl:rounded-tr-none object-cover p-5 bg-dark-1;
+    @apply h-80 lg:h-[480px] xl:w-[48%] rounded-t-[30px] xl:rounded-l-[24px] xl:rounded-tr-none object-cover p-5 bg-[#0B0F19];
   }
 
   .post_details-info {
-    @apply bg-dark-2 flex flex-col gap-5 lg:gap-7 flex-1 items-start p-8 rounded-[30px];
+    @apply bg-[#141922] flex flex-col gap-5 lg:gap-7 flex-1 items-start p-8 rounded-[30px];
   }
 
   .post_details-delete_btn {
-    @apply p-0 flex gap-3 hover:bg-transparent hover:text-light-1 text-light-1 small-medium lg:base-medium;
+    @apply p-0 flex gap-3 hover:bg-transparent hover:text-[#F3F4F6] text-[#F3F4F6] small-medium lg:base-medium;
   }
 
   /* Profile */
@@ -178,7 +178,7 @@
   }
 
   .profile-tab {
-    @apply flex-center gap-3 py-4 w-3/4 bg-dark-2 transition flex-1 xl:flex-initial;
+    @apply flex-center gap-3 py-4 w-3/4 bg-[#141922] transition flex-1 xl:flex-initial;
   }
 
   /* Saved */
@@ -188,7 +188,7 @@
 
   /* Bottom bar */
   .bottom-bar {
-    @apply z-50 flex-between w-full sticky bottom-0 rounded-t-[20px] bg-dark-2 px-5 py-4 md:hidden;
+    @apply z-50 flex-between w-full sticky bottom-0 rounded-t-[20px] bg-[#141922] px-5 py-4 md:hidden;
   }
 
   /* File uploader */
@@ -197,7 +197,7 @@
   }
 
   .file_uploader-label {
-    @apply text-light-4 text-center small-regular w-full p-4 border-t border-t-dark-4;
+    @apply text-[#A1A7B3] text-center small-regular w-full p-4 border-t border-t-dark-4;
   }
 
   .file_uploader-box {
@@ -210,7 +210,7 @@
   }
 
   .grid-post_link {
-    @apply flex rounded-[24px] border border-dark-4 overflow-hidden cursor-pointer w-full h-full;
+    @apply flex rounded-[24px] border border-[#29323D] overflow-hidden cursor-pointer w-full h-full;
   }
 
   .grid-post_user {
@@ -219,16 +219,16 @@
 
   /* Left sidebar */
   .leftsidebar {
-    @apply hidden md:flex px-6 py-10 flex-col justify-between min-w-[270px] bg-dark-2;
+    @apply hidden md:flex px-6 py-10 flex-col justify-between min-w-[270px] bg-[#141922];
   }
 
   .leftsidebar-link {
-    @apply rounded-lg base-medium hover:bg-[#5CCB3D] transition;
+    @apply rounded-lg base-medium hover:bg-[#66DA47] transition;
   }
 
   /* Post Card */
   .post-card {
-    @apply bg-dark-2 rounded-3xl border border-dark-4 p-5 lg:p-7 w-full max-w-screen-sm;
+    @apply bg-[#141922] rounded-3xl border border-[#29323D] p-5 lg:p-7 w-full max-w-screen-sm;
   }
 
   .post-card_img {
@@ -237,12 +237,12 @@
 
   /* Topbar */
   .topbar {
-    @apply sticky top-0 z-50 md:hidden bg-dark-2 w-full;
+    @apply sticky top-0 z-50 md:hidden bg-[#141922] w-full;
   }
 
   /* User card */
   .user-card {
-    @apply flex-center flex-col gap-4 border border-dark-4 rounded-[20px] px-5 py-8;
+    @apply flex-center flex-col gap-4 border border-[#29323D] rounded-[20px] px-5 py-8;
   }
 }
 
@@ -250,31 +250,31 @@
   /* SHADCN COMPONENTS */
   /* Form */
   .shad-form_label {
-    @apply text-white !important;
+    @apply text-[#E5E7EB] !important;
   }
 
   .shad-form_message {
     @apply text-red !important;
   }
-
+  
   .shad-input {
-    @apply h-12 bg-dark-4 border-none placeholder:text-light-4 focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
+    @apply h-12 bg-[#222A3A] border-none placeholder:text-[#A1A7B3] focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
   }
 
   .shad-textarea {
-    @apply h-36 bg-dark-3 rounded-xl border-none focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
+    @apply h-36 bg-[#1A1F2E] rounded-xl border-none focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
   }
 
   /* Button */
   .shad-button_primary {
-    @apply bg-green-500 hover:bg-[#5CCB3D] text-light-1 flex gap-2 !important;
+    @apply bg-[#5CCB3D] hover:bg-[#66DA47] text-[#F3F4F6] flex gap-2 !important;
   }
 
   .shad-button_dark_4 {
-    @apply h-12 bg-dark-4 px-5 text-light-1 flex gap-2 !important;
+    @apply h-12 bg-[#222A3A] px-5 text-[#F3F4F6] flex gap-2 !important;
   }
 
   .shad-button_ghost {
-    @apply flex gap-4 items-center justify-start hover:bg-transparent hover:text-white !important;
+    @apply flex gap-4 items-center justify-start hover:bg-transparent hover:text-[#E5E7EB] !important;
   }
 }
