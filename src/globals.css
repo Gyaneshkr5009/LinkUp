@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply bg-[#0B0F19] text-[#E5E7EB] min-h-screen font-poppins antialiased; /* Changed font-inter to font-poppins */
+    @apply bg-[#1A1C2C] text-[#EAEAEA] min-h-screen font-poppins antialiased;
   }
 }
 
@@ -96,16 +96,16 @@
   }
 
   .custom-scrollbar::-webkit-scrollbar-track {
-    background: #09090a;
+    background: #111827;
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #5c5c7b;
+    background: #4b5563;
     border-radius: 50px;
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #9a9ab0;
+    background: #6b7280;
   }
 
   .common-container {
@@ -131,7 +131,7 @@
   }
 
   .explore-search {
-    @apply h-12 bg-[#222A3A] border-none placeholder:text-[#A1A7B3] focus-visible:ring-0 focus-visible:ring-offset-0 ring-offset-0 !important;
+    @apply h-12 bg-[#24273A] border-none placeholder:text-[#A1A1B0] focus-visible:ring-0 focus-visible:ring-offset-0 ring-offset-0 !important;
   }
 
   /* Home */
@@ -153,19 +153,19 @@
   }
 
   .post_details-card {
-    @apply bg-[#141922] w-full max-w-5xl rounded-[30px] flex-col flex xl:flex-row border border-[#29323D] xl:rounded-l-[24px];
+    @apply bg-[#24273A] w-full max-w-5xl rounded-[30px] flex-col flex xl:flex-row border border-[#3A3E5B] xl:rounded-l-[24px];
   }
 
   .post_details-img {
-    @apply h-80 lg:h-[480px] xl:w-[48%] rounded-t-[30px] xl:rounded-l-[24px] xl:rounded-tr-none object-cover p-5 bg-[#0B0F19];
+    @apply h-80 lg:h-[480px] xl:w-[48%] rounded-t-[30px] xl:rounded-l-[24px] xl:rounded-tr-none object-cover p-5 bg-[#1A1C2C];
   }
 
   .post_details-info {
-    @apply bg-[#141922] flex flex-col gap-5 lg:gap-7 flex-1 items-start p-8 rounded-[30px];
+    @apply bg-[#24273A] flex flex-col gap-5 lg:gap-7 flex-1 items-start p-8 rounded-[30px];
   }
 
   .post_details-delete_btn {
-    @apply p-0 flex gap-3 hover:bg-transparent hover:text-[#F3F4F6] text-[#F3F4F6] small-medium lg:base-medium;
+    @apply p-0 flex gap-3 hover:bg-transparent hover:text-[#EAEAEA] text-[#EAEAEA] small-medium lg:base-medium;
   }
 
   /* Profile */
@@ -178,7 +178,7 @@
   }
 
   .profile-tab {
-    @apply flex-center gap-3 py-4 w-3/4 bg-[#141922] transition flex-1 xl:flex-initial;
+    @apply flex-center gap-3 py-4 w-3/4 bg-[#24273A] transition flex-1 xl:flex-initial;
   }
 
   /* Saved */
@@ -188,7 +188,7 @@
 
   /* Bottom bar */
   .bottom-bar {
-    @apply z-50 flex-between w-full sticky bottom-0 rounded-t-[20px] bg-[#141922] px-5 py-4 md:hidden;
+    @apply z-50 flex-between w-full sticky bottom-0 rounded-t-[20px] bg-[#24273A] px-5 py-4 md:hidden;
   }
 
   /* File uploader */
@@ -197,7 +197,7 @@
   }
 
   .file_uploader-label {
-    @apply text-[#A1A7B3] text-center small-regular w-full p-4 border-t border-t-dark-4;
+    @apply text-[#A1A1B0] text-center small-regular w-full p-4 border-t border-[#3A3E5B];
   }
 
   .file_uploader-box {
@@ -210,25 +210,25 @@
   }
 
   .grid-post_link {
-    @apply flex rounded-[24px] border border-[#29323D] overflow-hidden cursor-pointer w-full h-full;
+    @apply flex rounded-[24px] border border-[#3A3E5B] overflow-hidden cursor-pointer w-full h-full;
   }
 
   .grid-post_user {
-    @apply absolute bottom-0 p-5 flex-between w-full bg-gradient-to-t from-dark-3 to-transparent rounded-b-[24px] gap-2;
+    @apply absolute bottom-0 p-5 flex-between w-full bg-gradient-to-t from-gray-800 to-transparent rounded-b-[24px] gap-2;
   }
 
   /* Left sidebar */
   .leftsidebar {
-    @apply hidden md:flex px-6 py-10 flex-col justify-between min-w-[270px] bg-[#141922];
+    @apply hidden md:flex px-6 py-10 flex-col justify-between min-w-[270px] bg-[#24273A];
   }
 
   .leftsidebar-link {
-    @apply rounded-lg base-medium hover:bg-[#66DA47] transition;
+    @apply rounded-lg base-medium hover:bg-[#3FC1C9] transition;
   }
 
   /* Post Card */
   .post-card {
-    @apply bg-[#141922] rounded-3xl border border-[#29323D] p-5 lg:p-7 w-full max-w-screen-sm;
+    @apply bg-[#24273A] rounded-3xl border border-[#3A3E5B] p-5 lg:p-7 w-full max-w-screen-sm;
   }
 
   .post-card_img {
@@ -237,44 +237,60 @@
 
   /* Topbar */
   .topbar {
-    @apply sticky top-0 z-50 md:hidden bg-[#141922] w-full;
+    @apply sticky top-0 z-50 md:hidden bg-[#24273A] w-full;
   }
 
-  /* User card */
-  .user-card {
-    @apply flex-center flex-col gap-4 border border-[#29323D] rounded-[20px] px-5 py-8;
-  }
+  /* Updated User Card Styles */
+.user-card {
+  @apply flex flex-col items-center gap-2 border border-[#3A3E5B] rounded-lg px-4 py-5 bg-[#24273A] shadow-[0px_4px_10px_rgba(0,0,0,0.25)];
+  width: 150px; /* Adjust width for a compact look */
+  height: 170px;
+}
+
+.user-card p {
+  @apply text-sm font-medium text-[#C3C6D1];
+}
+
+.user-card button {
+  @apply bg-[#3FC1C9] hover:bg-[#33B2B8] text-[#1C1E29] px-3 py-1 rounded-md text-xs;
+}
+
+/* Adjust Grid Layout for User Cards */
+.user-grid {
+  @apply grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4;
+}
+
 }
 
 @layer components {
   /* SHADCN COMPONENTS */
   /* Form */
   .shad-form_label {
-    @apply text-[#E5E7EB] !important;
+    @apply text-[#EAEAEA] !important;
   }
 
   .shad-form_message {
-    @apply text-red !important;
+    @apply text-rose-500 !important;
   }
   
   .shad-input {
-    @apply h-12 bg-[#222A3A] border-none placeholder:text-[#A1A7B3] focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
+    @apply h-12 bg-[#24273A] border-none placeholder:text-[#A1A1B0] focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
   }
 
   .shad-textarea {
-    @apply h-36 bg-[#1A1F2E] rounded-xl border-none focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
+    @apply h-36 bg-[#24273A] rounded-xl border-none focus-visible:ring-1 focus-visible:ring-offset-1 ring-offset-light-3 !important;
   }
 
   /* Button */
   .shad-button_primary {
-    @apply bg-[#5CCB3D] hover:bg-[#66DA47] text-[#F3F4F6] flex gap-2 !important;
+    @apply bg-[#3FC1C9] hover:bg-[#33B2B8] text-[#1C1E29] flex gap-2 !important;
   }
 
   .shad-button_dark_4 {
-    @apply h-12 bg-[#222A3A] px-5 text-[#F3F4F6] flex gap-2 !important;
+    @apply h-12 bg-[#24273A] px-5 text-[#EAEAEA] flex gap-2 !important;
   }
 
   .shad-button_ghost {
-    @apply flex gap-4 items-center justify-start hover:bg-transparent hover:text-[#E5E7EB] !important;
+    @apply flex gap-4 items-center justify-start hover:bg-transparent hover:text-[#EAEAEA] !important;
   }
 }

@@ -63,7 +63,7 @@ const LeftSidebar = () => {
               <li
                 key={link.label}
                 className={`leftsidebar-link group ${
-                  isActive && "bg-[#7ED957]"
+                  isActive && "bg-[#2FA3A7]"
                 }`}>
                 <NavLink
                   to={link.route}

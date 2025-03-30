@@ -19,19 +19,19 @@ module.exports = {
     },
     extend: {
       colors: {
-        'primary-500': '#877EFF',
-        'primary-600': '#5D5FEF',
-        'secondary-500': '#FFB620',
-        'off-white': '#D0DFFF',
-        'red': '#FF5A5A',
-        'dark-1': '#000000',
-        'dark-2': '#09090A',
-        'dark-3': '#101012',
-        'dark-4': '#1F1F22',
+        'primary-500': '#00796B', // Teal
+        'primary-600': '#004D40',
+        'secondary-500': '#FF9800', // Orange
+        'off-white': '#FAFAFA',
+        'red': '#E53935',
+        'dark-1': '#1B1B1B',
+        'dark-2': '#333333',
+        'dark-3': '#4F4F4F',
+        'dark-4': '#616161',
         'light-1': '#FFFFFF',
-        'light-2': '#EFEFEF',
-        'light-3': '#7878A3',
-        'light-4': '#5C5C7B',
+        'light-2': '#F5F5F5',
+        'light-3': '#EEEEEE',
+        'light-4': '#E0E0E0',
       },
       screens: {
         'xs': '480px',
@@ -42,7 +42,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-        poppins: ['Poppins', 'sans-serif'], // Add the Poppins font family
+        poppins: ['Poppins', 'sans-serif'],
       },
       keyframes: {
         'accordion-down': {
